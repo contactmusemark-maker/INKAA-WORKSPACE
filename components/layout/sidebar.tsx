@@ -1,0 +1,5 @@
+'use client';
+import Link from 'next/link';
+import { LayoutDashboard, Users, MessageSquare, Phone, BarChart3, CheckSquare, FileText, Calendar, Settings } from 'lucide-react';
+const nav = [['Dashboard','/dashboard',LayoutDashboard],['Leads','/leads',Users],['Messages','/messages',MessageSquare],['Calls','/calls',Phone],['Analytics','/analytics',BarChart3],['Tasks','/tasks',CheckSquare],['Documents','/documents',FileText],['Calendar','/calendar',Calendar],['Settings','/settings',Settings]] as const;
+export function Sidebar() { return <aside className="glass fixed left-6 top-6 bottom-6 w-72 rounded-luxe border border-white/30 bg-inkaa-sidebar text-white p-5 shadow-glow"><div className="text-2xl tracking-wider font-light mb-8">◉ INKAA</div><nav className="space-y-2">{nav.map(([n,h,I])=> <Link key={n} href={h} className="flex items-center gap-3 rounded-2xl px-4 py-3 hover:bg-gradient-to-r hover:from-inkaa-red/70 hover:to-inkaa-redBright/70 transition"><I className="h-4 w-4"/>{n}</Link>)}</nav><div className="absolute bottom-5 left-5 right-5 rounded-2xl bg-white/10 p-4 text-sm">Ariana Kim<br/><span className="text-white/70">Revenue Manager</span></div></aside>; }

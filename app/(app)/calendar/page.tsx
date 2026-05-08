@@ -1,0 +1,1 @@
+export default function Page(){return <div className="rounded-luxe bg-white p-8 shadow-soft"><h1 className="text-4xl font-light capitalize">calendar</h1><p className="text-inkaa-muted mt-2">Premium calendar workspace with AI-native modules, responsive behavior, and futuristic interactions.</p></div>;}

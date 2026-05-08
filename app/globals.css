@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: light; }
+body { @apply bg-inkaa-bg text-inkaa-text font-sans antialiased; }
+.glass { background: rgba(255,255,255,.7); backdrop-filter: blur(24px); }
+.dark body { @apply bg-[#050505] text-white; }

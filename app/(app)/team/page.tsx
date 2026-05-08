@@ -1,0 +1,1 @@
+export default function Page(){return <div className="rounded-luxe bg-white dark:bg-neutral-900 p-6"><h1 className="text-3xl font-light">Team Management</h1><ul className="mt-4 space-y-2"><li>Ariana Kim · Admin</li><li>Jordan Park · Sales Manager</li><li>Chris Lowe · SDR</li></ul></div>;}

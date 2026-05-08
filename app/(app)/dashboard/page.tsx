@@ -1,2 +1,2 @@
-import { DashboardView } from '@/components/crm/dashboard';
-export default function Page(){return <DashboardView/>;}
+import { DashboardPage } from '@/components/crm/premium-pages';
+export default function Page(){ return <DashboardPage/>; }

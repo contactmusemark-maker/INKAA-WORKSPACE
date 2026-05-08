@@ -1,1 +1,2 @@
-export default function Page(){return <div className="rounded-luxe bg-white p-8 shadow-soft"><h1 className="text-4xl font-light capitalize">calls</h1><p className="text-inkaa-muted mt-2">Premium calls workspace with AI-native modules, responsive behavior, and futuristic interactions.</p></div>;}
+import { CallsPage } from '@/components/crm/premium-pages';
+export default function Page(){ return <CallsPage/>; }

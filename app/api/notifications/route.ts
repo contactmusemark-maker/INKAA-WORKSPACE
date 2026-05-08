@@ -1,0 +1,2 @@
+import { NextResponse } from 'next/server';
+export async function GET(){return NextResponse.json([{id:1,text:'Deal moved to Proposal'},{id:2,text:'Team mention in chat'}]);}

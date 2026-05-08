@@ -1,0 +1,2 @@
+const steps=['Team setup','Workspace creation','CRM import','Invite members','AI personalization'];
+export default function OnboardingPage(){return <main className="min-h-screen p-10"><h1 className="text-6xl font-light">Onboarding</h1><div className="mt-10 grid md:grid-cols-5 gap-4">{steps.map((s,i)=><div key={s} className="rounded-[28px] border p-6 bg-white"><p className="text-sm text-inkaa-muted">Step {i+1}</p><p className="text-xl font-light">{s}</p></div>)}</div></main>}

@@ -1,0 +1,1 @@
+export default function AnalyticsPage(){return <main className="min-h-screen p-8"><h1 className="text-6xl font-light">Analytics</h1><div className="grid md:grid-cols-3 gap-4 mt-8">{['Revenue','Conversion','Retention'].map((c)=><div key={c} className="rounded-[28px] border bg-white p-6"><p>{c}</p><p className="text-4xl font-light mt-2">+24%</p></div>)}</div></main>}
